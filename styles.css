@@ -1,1 +1,39 @@
 /*  your css code here. If applicable */
+:root {
+	background-color:rgb(135, 206, 235);
+}
+
+body > p:nth-child(2) {
+	background-color:black;
+	color:white;
+}
+body > p:nth-child(5) {
+	color:red;
+}
+
+li {
+	background-color:grey;
+	width:50%;
+	padding:10px;
+}
+
+ul > li:nth-child(1) {
+	background-color:white;
+	padding:10px;
+	width:50%;
+	font-size:22px;
+}
+ul > li:nth-child(3) {
+	background-color:pink;
+	padding:10px;
+	width:50%;
+}
+ul > li:last-child {
+	background-color:white;
+	padding:10px;
+	width:50%;
+	font-size:22px;
+}
+
+
+
